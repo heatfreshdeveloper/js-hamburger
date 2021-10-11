@@ -1,6 +1,5 @@
-const menu = document.querySelector("div.hamburger-menu ul");
-const menuItems = document.querySelectorAll("div.hamburger-menu ul li");
-const menuButton = document.querySelector("div.header-right a i");
+const menu = document.querySelector("div.hamburger-menu");
+const menuButton = document.querySelector("div.header-right > a");
 const menuClose = document.querySelector("div.hamburger-menu a.close");
 
 menuButton.addEventListener('click', 
